@@ -1,0 +1,731 @@
+-- Gui to Lua
+
+-- Version: 3.2
+
+-- Instances:
+
+local MHRGUI = Instance.new("ScreenGui")
+
+local MHRFrame = Instance.new("Frame")
+
+local MelonTitle = Instance.new("TextLabel")
+
+local HubScriptList = Instance.new("ScrollingFrame")
+
+local FallenAnger = Instance.new("TextButton")
+
+local UIGradient = Instance.new("UIGradient")
+
+local VoidKing = Instance.new("TextButton")
+
+local UIGradient_2 = Instance.new("UIGradient")
+
+local Tate = Instance.new("TextButton")
+
+local UIGradient_3 = Instance.new("UIGradient")
+
+local Rune = Instance.new("TextButton")
+
+local UIGradient_4 = Instance.new("UIGradient")
+
+local GoodCopBadCop = Instance.new("TextButton")
+
+local UIGradient_5 = Instance.new("UIGradient")
+
+local Void = Instance.new("TextButton")
+
+local UIGradient_6 = Instance.new("UIGradient")
+
+local Obliterator = Instance.new("TextButton")
+
+local UIGradient_7 = Instance.new("UIGradient")
+
+local Combine = Instance.new("TextButton")
+
+local UIGradient_8 = Instance.new("UIGradient")
+
+local DioGloves = Instance.new("TextButton")
+
+local UIGradient_9 = Instance.new("UIGradient")
+
+local Bong = Instance.new("TextButton")
+
+local UIGradient_10 = Instance.new("UIGradient")
+
+local Dokka = Instance.new("TextButton")
+
+local UIGradient_11 = Instance.new("UIGradient")
+
+local Sociopath = Instance.new("TextButton")
+
+local UIGradient_12 = Instance.new("UIGradient")
+
+local Reaper = Instance.new("TextButton")
+
+local UIGradient_13 = Instance.new("UIGradient")
+
+local END = Instance.new("TextButton")
+
+local UIGradient_14 = Instance.new("UIGradient")
+
+local Reset = Instance.new("ImageButton")
+
+local Settings = Instance.new("ImageButton")
+
+local Exit = Instance.new("ImageButton")
+
+local Close = Instance.new("ImageButton")
+
+local UIGradient_15 = Instance.new("UIGradient")
+
+--Properties:
+
+MHRGUI.Name = "MHRGUI"
+
+MHRGUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+MHRFrame.Name = "MHRFrame"
+
+MHRFrame.Parent = MHRGUI
+
+MHRFrame.Active = true
+
+MHRFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+MHRFrame.BorderSizePixel = 0
+
+MHRFrame.Position = UDim2.new(0.296759725, 0, 0.164282545, 0)
+
+MHRFrame.Size = UDim2.new(0, 361, 0, 334)
+
+MelonTitle.Name = "MelonTitle"
+
+MelonTitle.Parent = MHRFrame
+
+MelonTitle.BackgroundColor3 = Color3.fromRGB(50, 48, 49)
+
+MelonTitle.BorderSizePixel = 0
+
+MelonTitle.Position = UDim2.new(0, 0, -0.0901736841, 0)
+
+MelonTitle.Size = UDim2.new(0, 361, 0, 30)
+
+MelonTitle.Font = Enum.Font.Jura
+
+MelonTitle.Text = "Melon Hub Reborn"
+
+MelonTitle.TextColor3 = Color3.fromRGB(180, 180, 180)
+
+MelonTitle.TextScaled = true
+
+MelonTitle.TextSize = 14.000
+
+MelonTitle.TextWrapped = true
+
+HubScriptList.Name = "HubScriptList"
+
+HubScriptList.Parent = MHRFrame
+
+HubScriptList.Active = true
+
+HubScriptList.BackgroundColor3 = Color3.fromRGB(118, 118, 118)
+
+HubScriptList.Position = UDim2.new(0.0581717454, 0, 0.0359281451, 0)
+
+HubScriptList.Size = UDim2.new(0, 212, 0, 293)
+
+FallenAnger.Name = "FallenAnger"
+
+FallenAnger.Parent = HubScriptList
+
+FallenAnger.BackgroundColor3 = Color3.fromRGB(170, 170, 170)
+
+FallenAnger.BorderSizePixel = 0
+
+FallenAnger.Position = UDim2.new(0, 0, -0.00149700604, 0)
+
+FallenAnger.Size = UDim2.new(0, 200, 0, 50)
+
+FallenAnger.Font = Enum.Font.SourceSans
+
+FallenAnger.Text = "Fallen Anger"
+
+FallenAnger.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+FallenAnger.TextScaled = true
+
+FallenAnger.TextSize = 14.000
+
+FallenAnger.TextWrapped = true
+
+FallenAnger.MouseButton1Down:connect(function()
+
+loadstring(game:HttpGet("https://cdn.discordapp.com/attachments/1056703773243879446/1056704125909340160/Fallen_Anger.txt", true))()
+
+end)
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(79, 80, 86)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(159, 161, 172))}
+
+UIGradient.Rotation = 90
+
+UIGradient.Parent = FallenAnger
+
+VoidKing.Name = "VoidKing"
+
+VoidKing.Parent = HubScriptList
+
+VoidKing.BackgroundColor3 = Color3.fromRGB(170, 170, 170)
+
+VoidKing.BorderSizePixel = 0
+
+VoidKing.Position = UDim2.new(0, 0, 0.0733532906, 0)
+
+VoidKing.Size = UDim2.new(0, 200, 0, 50)
+
+VoidKing.Font = Enum.Font.SourceSans
+
+VoidKing.Text = "Void King"
+
+VoidKing.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+VoidKing.TextScaled = true
+
+VoidKing.TextSize = 14.000
+
+VoidKing.TextWrapped = true
+
+VoidKing.MouseButton1Down:connect(function()
+
+loadstring(game:HttpGet("https://cdn.discordapp.com/attachments/1056703773243879446/1056704128073617489/VoidKing.txt", true))()
+
+end)
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(79, 80, 86)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(159, 161, 172))}
+
+UIGradient_2.Rotation = 90
+
+UIGradient_2.Parent = VoidKing
+
+Tate.Parent = HubScriptList
+
+Tate.BackgroundColor3 = Color3.fromRGB(170, 170, 170)
+
+Tate.BorderSizePixel = 0
+
+Tate.Position = UDim2.new(0, 0, 0.148203582, 0)
+
+Tate.Size = UDim2.new(0, 200, 0, 50)
+
+Tate.Font = Enum.Font.SourceSans
+
+Tate.Text = "Andrew Tate"
+
+Tate.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+Tate.TextScaled = true
+
+Tate.TextSize = 14.000
+
+Tate.TextWrapped = true
+
+Tate.MouseButton1Down:connect(function()
+
+Tate.Text = "Not Ready."
+
+wait(2)
+
+Tate.Text = "Andrew Tate"
+
+end)
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(79, 80, 86)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(159, 161, 172))}
+
+UIGradient_3.Rotation = 90
+
+UIGradient_3.Parent = Tate
+
+Rune.Name = "Rune"
+
+Rune.Parent = HubScriptList
+
+Rune.BackgroundColor3 = Color3.fromRGB(170, 170, 170)
+
+Rune.BorderSizePixel = 0
+
+Rune.Position = UDim2.new(0, 0, 0.223053873, 0)
+
+Rune.Size = UDim2.new(0, 200, 0, 50)
+
+Rune.Font = Enum.Font.SourceSans
+
+Rune.Text = "Rune"
+
+Rune.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+Rune.TextScaled = true
+
+Rune.TextSize = 14.000
+
+Rune.TextWrapped = true
+
+Rune.MouseButton1Down:connect(function()
+
+loadstring(game:HttpGet("https://cdn.discordapp.com/attachments/1056703773243879446/1056704127129899018/Rune.txt", true))()
+
+end)
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(79, 80, 86)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(159, 161, 172))}
+
+UIGradient_4.Rotation = 90
+
+UIGradient_4.Parent = Rune
+
+GoodCopBadCop.Name = "GoodCopBadCop"
+
+GoodCopBadCop.Parent = HubScriptList
+
+GoodCopBadCop.BackgroundColor3 = Color3.fromRGB(170, 170, 170)
+
+GoodCopBadCop.BorderSizePixel = 0
+
+GoodCopBadCop.Position = UDim2.new(0, 0, 0.297904164, 0)
+
+GoodCopBadCop.Size = UDim2.new(0, 200, 0, 50)
+
+GoodCopBadCop.Font = Enum.Font.SourceSans
+
+GoodCopBadCop.Text = "Good Cop Bad Cop"
+
+GoodCopBadCop.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+GoodCopBadCop.TextScaled = true
+
+GoodCopBadCop.TextSize = 14.000
+
+GoodCopBadCop.TextWrapped = true
+
+GoodCopBadCop.MouseButton1Down:connect(function()
+
+loadstring(game:HttpGet("https://cdn.discordapp.com/attachments/1056703773243879446/1056704126542684200/GoodCopBadCop.txt", true))()
+
+end)
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(79, 80, 86)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(159, 161, 172))}
+
+UIGradient_5.Rotation = 90
+
+UIGradient_5.Parent = GoodCopBadCop
+
+Void.Name = "Void"
+
+Void.Parent = HubScriptList
+
+Void.BackgroundColor3 = Color3.fromRGB(170, 170, 170)
+
+Void.BorderSizePixel = 0
+
+Void.Position = UDim2.new(0, 0, 0.371257454, 0)
+
+Void.Size = UDim2.new(0, 200, 0, 50)
+
+Void.Font = Enum.Font.SourceSans
+
+Void.Text = "Void"
+
+Void.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+Void.TextScaled = true
+
+Void.TextSize = 14.000
+
+Void.TextWrapped = true
+
+Void.MouseButton1Down:connect(function()
+
+loadstring(game:HttpGet("https://cdn.discordapp.com/attachments/1056703773243879446/1056704127738056715/Void.txt", true))()
+
+end)
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(79, 80, 86)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(159, 161, 172))}
+
+UIGradient_6.Rotation = 90
+
+UIGradient_6.Parent = Void
+
+Obliterator.Name = "Obliterator"
+
+Obliterator.Parent = HubScriptList
+
+Obliterator.BackgroundColor3 = Color3.fromRGB(170, 170, 170)
+
+Obliterator.BorderSizePixel = 0
+
+Obliterator.Position = UDim2.new(0, 0, 0.447604746, 0)
+
+Obliterator.Size = UDim2.new(0, 200, 0, 50)
+
+Obliterator.Font = Enum.Font.SourceSans
+
+Obliterator.Text = "Obliterator"
+
+Obliterator.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+Obliterator.TextScaled = true
+
+Obliterator.TextSize = 14.000
+
+Obliterator.TextWrapped = true
+
+Obliterator.MouseButton1Down:connect(function()
+
+loadstring(game:HttpGet("https://cdn.discordapp.com/attachments/1056703773243879446/1056704126853058650/Obliterator.txt", true))()
+
+end)
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(79, 80, 86)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(159, 161, 172))}
+
+UIGradient_7.Rotation = 90
+
+UIGradient_7.Parent = Obliterator
+
+Combine.Name = "Combine"
+
+Combine.Parent = HubScriptList
+
+Combine.BackgroundColor3 = Color3.fromRGB(170, 170, 170)
+
+Combine.BorderSizePixel = 0
+
+Combine.Position = UDim2.new(0, 0, 0.520958066, 0)
+
+Combine.Size = UDim2.new(0, 200, 0, 50)
+
+Combine.Font = Enum.Font.SourceSans
+
+Combine.Text = "Combine"
+
+Combine.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+Combine.TextScaled = true
+
+Combine.TextSize = 14.000
+
+Combine.TextWrapped = true
+
+Combine.MouseButton1Down:connect(function()
+
+loadstring(game:HttpGet("https://cdn.discordapp.com/attachments/1056703773243879446/1056757060622098613/Combine.txt", true))()
+
+end)
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(79, 80, 86)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(159, 161, 172))}
+
+UIGradient_8.Rotation = 90
+
+UIGradient_8.Parent = Combine
+
+DioGloves.Parent = HubScriptList
+
+DioGloves.BackgroundColor3 = Color3.fromRGB(170, 170, 170)
+
+DioGloves.BorderSizePixel = 0
+
+DioGloves.Position = UDim2.new(0, 0, 0.595808387, 0)
+
+DioGloves.Size = UDim2.new(0, 200, 0, 50)
+
+DioGloves.Font = Enum.Font.SourceSans
+
+DioGloves.Text = "Dio Gloves"
+
+DioGloves.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+DioGloves.TextScaled = true
+
+DioGloves.TextSize = 14.000
+
+DioGloves.TextWrapped = true
+
+DioGloves.MouseButton1Down:connect(function()
+
+loadstring(game:HttpGet("https://cdn.discordapp.com/attachments/1056703773243879446/1056706159446339615/Muda.txt", true))()
+
+end)
+
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(79, 80, 86)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(159, 161, 172))}
+
+UIGradient_9.Rotation = 90
+
+UIGradient_9.Parent = DioGloves
+
+Bong.Name = "Bong"
+
+Bong.Parent = HubScriptList
+
+Bong.BackgroundColor3 = Color3.fromRGB(170, 170, 170)
+
+Bong.BorderSizePixel = 0
+
+Bong.Position = UDim2.new(0, 0, 0.669161737, 0)
+
+Bong.Size = UDim2.new(0, 200, 0, 50)
+
+Bong.Font = Enum.Font.SourceSans
+
+Bong.Text = "Bong"
+
+Bong.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+Bong.TextScaled = true
+
+Bong.TextSize = 14.000
+
+Bong.TextWrapped = true
+
+Bong.MouseButton1Down:connect(function()
+
+loadstring(game:HttpGet("https://cdn.discordapp.com/attachments/1056703773243879446/1056706159685419008/bong.txt", true))()
+
+end)
+
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(79, 80, 86)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(159, 161, 172))}
+
+UIGradient_10.Rotation = 90
+
+UIGradient_10.Parent = Bong
+
+Dokka.Name = "Dokka"
+
+Dokka.Parent = HubScriptList
+
+Dokka.BackgroundColor3 = Color3.fromRGB(170, 170, 170)
+
+Dokka.BorderSizePixel = 0
+
+Dokka.Position = UDim2.new(0, 0, 0.742515028, 0)
+
+Dokka.Size = UDim2.new(0, 200, 0, 50)
+
+Dokka.Font = Enum.Font.SourceSans
+
+Dokka.Text = "Dokka"
+
+Dokka.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+Dokka.TextScaled = true
+
+Dokka.TextSize = 14.000
+
+Dokka.TextWrapped = true
+
+Dokka.MouseButton1Down:connect(function()
+
+loadstring(game:HttpGet("https://cdn.discordapp.com/attachments/1056703773243879446/1056704125598965850/Dokka.txt", true))()
+
+end)
+
+UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(79, 80, 86)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(159, 161, 172))}
+
+UIGradient_11.Rotation = 90
+
+UIGradient_11.Parent = Dokka
+
+Sociopath.Name = "Sociopath"
+
+Sociopath.Parent = HubScriptList
+
+Sociopath.BackgroundColor3 = Color3.fromRGB(170, 170, 170)
+
+Sociopath.BorderSizePixel = 0
+
+Sociopath.Position = UDim2.new(0, 0, 0.815868378, 0)
+
+Sociopath.Size = UDim2.new(0, 200, 0, 50)
+
+Sociopath.Font = Enum.Font.SourceSans
+
+Sociopath.Text = "SocioPath"
+
+Sociopath.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+Sociopath.TextScaled = true
+
+Sociopath.TextSize = 14.000
+
+Sociopath.TextWrapped = true
+
+Sociopath.MouseButton1Down:connect(function()
+
+loadstring(game:HttpGet("https://cdn.discordapp.com/attachments/1056703773243879446/1056704127419293917/Sociopath.txtw", true))()
+
+end)
+
+UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(79, 80, 86)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(159, 161, 172))}
+
+UIGradient_12.Rotation = 90
+
+UIGradient_12.Parent = Sociopath
+
+Reaper.Name = "Reaper"
+
+Reaper.Parent = HubScriptList
+
+Reaper.BackgroundColor3 = Color3.fromRGB(170, 170, 170)
+
+Reaper.BorderSizePixel = 0
+
+Reaper.Position = UDim2.new(0, 0, 0.890718639, 0)
+
+Reaper.Size = UDim2.new(0, 200, 0, 50)
+
+Reaper.Font = Enum.Font.SourceSans
+
+Reaper.Text = "Reaper"
+
+Reaper.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+Reaper.TextScaled = true
+
+Reaper.TextSize = 14.000
+
+Reaper.TextWrapped = true
+
+Reaper.MouseButton1Down:connect(function()
+
+loadstring(game:HttpGet("https://cdn.discordapp.com/attachments/1056703773243879446/1056757824111259648/Reaper.txt", true))()
+
+end)
+
+UIGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(79, 80, 86)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(159, 161, 172))}
+
+UIGradient_13.Rotation = 90
+
+UIGradient_13.Parent = Reaper
+
+END.Name = "END"
+
+END.Parent = HubScriptList
+
+END.BackgroundColor3 = Color3.fromRGB(170, 170, 170)
+
+END.BorderSizePixel = 0
+
+END.Position = UDim2.new(0, 0, 0.964921415, 0)
+
+END.Size = UDim2.new(0, 200, 0, 22)
+
+END.Font = Enum.Font.SourceSans
+
+END.Text = "END"
+
+END.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+END.TextScaled = true
+
+END.TextSize = 14.000
+
+END.TextWrapped = true
+
+UIGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(79, 80, 86)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(159, 161, 172))}
+
+UIGradient_14.Rotation = 90
+
+UIGradient_14.Parent = END
+
+Reset.Name = "Reset"
+
+Reset.Parent = MHRFrame
+
+Reset.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+Reset.BackgroundTransparency = 1.000
+
+Reset.BorderSizePixel = 0
+
+Reset.Position = UDim2.new(0.732389867, 0, 0.0330542848, 0)
+
+Reset.Size = UDim2.new(0, 77, 0, 65)
+
+Reset.Image = "http://www.roblox.com/asset/?id=10814309988"
+
+Reset.ImageColor3 = Color3.fromRGB(111, 111, 111)
+
+Reset.ScaleType = Enum.ScaleType.Fit
+
+Reset.MouseButton1Down:connect(function()
+
+game.Players.LocalPlayer:Destroy()
+
+end)
+
+Settings.Name = "Settings"
+
+Settings.Parent = MHRFrame
+
+Settings.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+Settings.BackgroundTransparency = 1.000
+
+Settings.BorderSizePixel = 0
+
+Settings.Position = UDim2.new(0.732389867, 0, 0.260599196, 0)
+
+Settings.Size = UDim2.new(0, 77, 0, 65)
+
+Settings.Image = "http://www.roblox.com/asset/?id=9520684009"
+
+Settings.ImageColor3 = Color3.fromRGB(111, 111, 111)
+
+Exit.Name = "Exit"
+
+Exit.Parent = MHRFrame
+
+Exit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+Exit.BackgroundTransparency = 1.000
+
+Exit.BorderSizePixel = 0
+
+Exit.Position = UDim2.new(0.732389867, 0, 0.479162067, 0)
+
+Exit.Size = UDim2.new(0, 77, 0, 65)
+
+Exit.Image = "http://www.roblox.com/asset/?id=6264845452"
+
+Exit.ImageColor3 = Color3.fromRGB(111, 111, 111)
+
+Exit.MouseButton1Down:connect(function ()
+
+game.Players.LocalPlayer:Kick("Requested kick.")
+
+end)
+
+Close.Name = "Close"
+
+Close.Parent = MHRFrame
+
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+Close.BackgroundTransparency = 1.000
+
+Close.BorderSizePixel = 0
+
+Close.Position = UDim2.new(0.732389867, 0, 0.715689003, 0)
+
+Close.Size = UDim2.new(0, 77, 0, 65)
+
+Close.Image = "http://www.roblox.com/asset/?id=4773247381"
+
+Close.ImageColor3 = Color3.fromRGB(111, 111, 111)
+
+Close.MouseButton1Down:connect(function()
+
+MHRFrame:Destroy()
+
+end)
+
+UIGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(49, 47, 49)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(99, 95, 98))}
+
+UIGradient_15.Rotation = 90
+
+UIGradient_15.Parent = MHRFrame
